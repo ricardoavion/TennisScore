@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lopez00024614.tennisscore.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/blue_court">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:src="@drawable/ball"
+        android:padding="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:padding="8dp"
+        />
+    <Button
+        android:id="@+id/btn_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/begin_button"
+        android:onClick="BeginClick"
+        android:padding="8dp"
+        android:background="@color/begin_color"
+        android:textColor="#fff"/>
+
+</LinearLayout>

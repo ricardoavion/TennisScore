@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1a237e</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#2962ff</color>
+    <color name="begin_color">#558b2f</color>
+    <color name="yellow_score">#ffea00</color>
+    <color name="score">#424242</color>
+    <color name="winner_color">#76ff03</color>
+    <color name="reset_red">#d50000</color>
+</resources>

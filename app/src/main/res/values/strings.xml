@@ -1,0 +1,17 @@
+<resources>
+    <!-- Main -->
+    <string name="app_name">Tennis Score</string>
+    <string name="begin_button">Begin</string>
+    <string name="description">This app will let you track the score of a tennis match</string>
+    <!-- Name activity -->
+    <string name="instruction_names">Please enter the name of the players or teams</string>
+    <string name="number_of_sets">Number of sets:</string>
+    <string-array name="sets">
+        <item>Two (2)</item>
+        <item>Three (3)</item>
+    </string-array>
+    <string name="match">GO!</string>
+    <string name="winner">Winner!</string>
+    <string name="point">Point</string>
+    <string name="reset">R</string>
+</resources>

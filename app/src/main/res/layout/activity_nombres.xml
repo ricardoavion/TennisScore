@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lopez00024614.tennisscore.Nombres"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/tennis_ball">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instruction_names"/>
+    <EditText
+        android:id="@+id/edit_name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name 1"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/edit_name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name 2"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_sets"
+            android:layout_marginTop="56dp"
+            android:layout_weight="1"
+            android:textAlignment="center"/>
+        <!--....................  Spinner .....................-->
+        <Spinner
+            android:id="@+id/spinner_sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:padding="8dp"
+            android:layout_weight="1"
+            android:paddingHorizontal="16dp">
+        </Spinner>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/match"
+        android:background="@color/begin_color"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:onClick="Go"/>
+
+
+</LinearLayout>
